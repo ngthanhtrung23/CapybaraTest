@@ -8,7 +8,6 @@ include Google
 
 feature 'Google should work' do
   scenario 'Go to google' do
-    visit_google
     search 'Trung'
   end
 end
